@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "equinox-cels-rewrite": {
+    "equinox-cels": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -44,7 +44,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/equinox-cels-rewrite",
+            "outputPath": "dist/equinox-cels",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -92,22 +92,22 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "equinox-cels-rewrite:build"
+            "browserTarget": "equinox-cels:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "equinox-cels-rewrite:build:production"
+              "browserTarget": "equinox-cels:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "equinox-cels-rewrite:build"
+            "browserTarget": "equinox-cels:build"
           }
         }
       }
     }
   },
-  "defaultProject": "equinox-cels-rewrite"
+  "defaultProject": "equinox-cels"
 }
