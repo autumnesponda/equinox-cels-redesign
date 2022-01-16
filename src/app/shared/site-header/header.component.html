@@ -1,0 +1,45 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid px-3 py-2">
+        <a class="navbar-brand display-5" href="">
+            <img
+                    src="assets/logoheader.png"
+                    class="me-2"
+                    height="50"
+                    alt=""
+                    loading="lazy"
+            />
+            Equinox Cels
+        </a>
+        <button
+                class="navbar-toggler"
+                type="button"
+                (click)="navbar.toggle()"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+        >
+            <i class="fas fa-bars"></i>
+        </button>
+        <div
+                class="collapse navbar-collapse"
+                mdbCollapse
+                #navbar="mdbCollapse"
+        >
+            <!-- links -->
+            <ul class="navbar-nav ms-auto mb-lg-0 fw-light">
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="/gallery" routerLinkActive="active">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="/wishlist">Wishlist</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="/contact">Contact</a>
+                </li>
+            </ul>
+            <!-- links -->
+        </div>
+    </div>
+</nav>
