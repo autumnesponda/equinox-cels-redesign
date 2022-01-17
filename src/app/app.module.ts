@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { MdbCollapseModule } from "mdb-angular-ui-kit/collapse";
 import { MdbDropdownModule } from "mdb-angular-ui-kit/dropdown";
 import { MdbRippleModule } from "mdb-angular-ui-kit/ripple";
+import { IvyCarouselModule } from "angular-responsive-carousel";
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -17,7 +18,7 @@ import { GalleryComponent } from './pages/gallery/gallery.component';
     HomeComponent,
     HeaderComponent,
     FooterComponent,
-    GalleryComponent
+    GalleryComponent,
   ],
   imports: [
     AppRoutingModule,
@@ -25,6 +26,7 @@ import { GalleryComponent } from './pages/gallery/gallery.component';
     MdbCollapseModule,
     MdbDropdownModule,
     MdbRippleModule,
+    IvyCarouselModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,32 +1,43 @@
-<!-- Background image -->
-<div
-        class="text-center bg-image"
-        style="
-      background-image: url('https://mdbootstrap.com/img/new/slides/041.webp');
-      height: 400px;
-    "
->
+<div class="text-center bg-image pb-3"
+     style="background-image: url('https://storage.googleapis.com/equinox-cels.com/sample_recording.webp'); height: 400px;">
     <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
         <div class="d-flex justify-content-center align-items-center h-100">
             <div class="text-white">
-                <h1 class="mb-3">Heading</h1>
-                <h4 class="mb-3">Subheading</h4>
-                <a class="btn btn-outline-light btn-lg" href="#!" role="button"
-                >Call to action</a
-                >
+                <h1 class="mb-3 display-1 fw-lightest">Equinox Cels</h1>
             </div>
         </div>
     </div>
 </div>
-<!-- Background image -->
 
-<div>content</div>
-<div>content</div>
-<div>content</div>
-<div>content</div>
-<div>content</div>
-<div>content</div>
-<div>content</div>
-<div>content</div>
-<div>content</div>
-<div>content</div>
+<section class="pt-3 px-2">
+    <figure class="fw-lighter py-5 text-center">
+        <blockquote class="fs-2">
+            <em>Animation can explain whatever the mind of man can conceive.</em>
+        </blockquote>
+        <figcaption class="blockquote-footer fs-4">
+            <em>Walter Elias Disney</em>
+        </figcaption>
+    </figure>
+</section>
+
+<section class="pb-5">
+    <carousel
+            [height] = 350
+            [cellsToShow] = 3
+            [loop] = true
+            [autoplay] = true
+            [transitionDuration] = 500
+            [pauseOnHover] = true
+            [images] = "images">
+    </carousel>
+</section>
+
+<section class="bg-dark p-5">
+    <div class="d-flex justify-content-center align-items-center h-100">
+        <div class="text-light text-center">
+            <h4 class="fw-lighter pb-3">Welcome to my personal collection of one-of-a-kind pieces of animation history.</h4>
+            <h5 class="mb-0 fw-lighter">Please enjoy your stay, and i'm going to write more content here at some point</h5>
+            <h5 class="mb-0 fw-lighter">Maybe something deep about animation, but probably not</h5>
+        </div>
+    </div>
+</section>
