@@ -4,6 +4,7 @@ import { MdbCollapseModule } from "mdb-angular-ui-kit/collapse";
 import { MdbDropdownModule } from "mdb-angular-ui-kit/dropdown";
 import { MdbRippleModule } from "mdb-angular-ui-kit/ripple";
 import { IvyCarouselModule } from "angular-responsive-carousel";
+import { LightboxModule } from "ngx-lightbox";
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -41,6 +42,7 @@ import { OtherGalleryComponent } from './pages/gallery/other-gallery/other-galle
     MdbDropdownModule,
     MdbRippleModule,
     IvyCarouselModule,
+    LightboxModule
   ],
   providers: [],
   bootstrap: [AppComponent]

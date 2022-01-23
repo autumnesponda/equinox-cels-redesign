@@ -23,4 +23,49 @@ export abstract class Constants {
                 'NGE_misato_raw_00.jpg', 'NGE_misato_raw_01.jpg', 'NGE_misato_raw_02.jpg', 'NGE_misato_raw_03.jpg', 'NGE_misato_raw_04.jpg', 'NGE_misato_raw_05.jpg'
             ]
         ];
+
+    static JOJO_FILENAMES: string[] =
+        [
+            'https://storage.googleapis.com/equinox-cels.com/jojo/fullcel.jpeg',
+            'https://storage.googleapis.com/equinox-cels.com/jojo/layout01.jpeg',
+            'https://storage.googleapis.com/equinox-cels.com/jojo/dougaB0.jpeg',
+
+            'https://storage.googleapis.com/equinox-cels.com/jojo/correction.jpeg',
+            'https://storage.googleapis.com/equinox-cels.com/jojo/dougaB1.jpeg',
+            'https://storage.googleapis.com/equinox-cels.com/jojo/gengaB0.jpeg',
+
+            'https://storage.googleapis.com/equinox-cels.com/jojo/gengaB1.jpeg',
+            'https://storage.googleapis.com/equinox-cels.com/jojo/genga.jpeg',
+            'https://storage.googleapis.com/equinox-cels.com/jojo/layoutA1.jpeg',
+
+            'https://storage.googleapis.com/equinox-cels.com/jojo/dougaC6.jpg',
+            'https://storage.googleapis.com/equinox-cels.com/jojo/dougaD2.jpg',
+            'https://storage.googleapis.com/equinox-cels.com/jojo/layout02.jpg',
+
+            'https://storage.googleapis.com/equinox-cels.com/jojo/layout03.jpg',
+            'https://storage.googleapis.com/equinox-cels.com/jojo/correctionC2.jpg',
+            'https://storage.googleapis.com/equinox-cels.com/jojo/correctionC3.jpg',
+
+        ]
+
+    static JOJO_CAPTIONS: string[] =
+        [
+            'The full four-layer key pan cel (A1/B1/C6/D2)',
+            'The original layout for the entire pan shot. The note on top reads "3D shading to go with 94(C)" the next shot in the sequence',
+            'Final douga for cel B-1 of the pan cel',
+            'Correction genga signed by award-winning animator Hiroyuki Kitakubo who was a chief director for this series. The note reads: "☆Animation Director~ Please fix the tear in the clothes here so it doesn\'t touch the red line because it interferes with the hat in cel D."',
+            'The original B-1 douga referenced in the previous image. Note how much longer the tear in the clothing is compared to the final cel.',
+            'The original B-1 genga',
+            'Updated B-1 genga reflecting the changes to the tear in the sleeve as requested by Kitakubo-san, as well as a more squinted expression by Mr. Joestar.',
+            'Genga for a shot of Mr. Jostar in the next cut',
+            'Final douga for cel A-1 of the pan cel',
+            'Final douga for cel C-6 of the pan cel',
+            'Final douga for cel D-2 of the pan cel',
+            '',
+            '',
+            '',
+            'Another correction genga signed by Kitakubo-san: "A little more tilt/slant for the hat is OK"',
+        ]
+
+
 }
