@@ -24,7 +24,7 @@ export abstract class Constants {
             ]
         ];
 
-    static JOJO_FILENAMES: string[] =
+    static JOJO_FILENAMES =
         [
             'https://storage.googleapis.com/equinox-cels.com/jojo/fullcel.jpeg',
             'https://storage.googleapis.com/equinox-cels.com/jojo/layout01.jpeg',
@@ -45,10 +45,9 @@ export abstract class Constants {
             'https://storage.googleapis.com/equinox-cels.com/jojo/layout03.jpg',
             'https://storage.googleapis.com/equinox-cels.com/jojo/correctionC2.jpg',
             'https://storage.googleapis.com/equinox-cels.com/jojo/correctionC3.jpg',
-
         ]
 
-    static JOJO_CAPTIONS: string[] =
+    static JOJO_CAPTIONS =
         [
             'The full four-layer key pan cel (A1/B1/C6/D2)',
             'The original layout for the entire pan shot. The note on top reads "3D shading to go with 94(C)" the next shot in the sequence',
@@ -67,5 +66,78 @@ export abstract class Constants {
             'Another correction genga signed by Kitakubo-san: "A little more tilt/slant for the hat is OK"',
         ]
 
+    static GUNDAM_FILENAMES =
+        [
+            'https://storage.googleapis.com/equinox-cels.com/Other/newCenturyGundamX_%20A21E.png',
+            'https://storage.googleapis.com/equinox-cels.com/Other/newCenturyGundamX_%20A21E_douga.png',
+            'https://storage.googleapis.com/equinox-cels.com/Other/g-gundam-3.jpg',
+            'https://storage.googleapis.com/equinox-cels.com/Other/mobile_suit_victory_gundam_01.png',
+            'https://storage.googleapis.com/equinox-cels.com/Other/RMS-099%20Rick%20Dias.jpg'
+        ]
 
+    static GUNDAM_CAPTIONS =
+        [
+            '',
+            '',
+            '',
+            '',
+            ''
+        ]
+
+    static GHOSTSTORIES_FILENAMES =
+        [
+            'https://storage.googleapis.com/equinox-cels.com/Other/GHOST_STORIES_01_00.png',
+            'https://storage.googleapis.com/equinox-cels.com/Other/GHOST_STORIES_01_01.png',
+            'https://storage.googleapis.com/equinox-cels.com/Other/GHOST_STORIES_S23_00.jpeg',
+            'https://storage.googleapis.com/equinox-cels.com/Other/GHOST_STORIES_S23_01.jpeg',
+            'https://storage.googleapis.com/equinox-cels.com/Other/GHOST_STORIES_S23_02.jpeg'
+        ]
+
+    static GHOSTSTORIES_CAPTIONS =
+        [
+            '',
+            '',
+            '',
+            '',
+            ''
+        ]
+
+    static FMA_FILENAMES =
+        [
+            'https://storage.googleapis.com/equinox-cels.com/Other/fma00_00.jpg',
+            'https://storage.googleapis.com/equinox-cels.com/Other/fma00_01.jpg',
+            'https://storage.googleapis.com/equinox-cels.com/Other/fma00_02.jpg',
+            'https://storage.googleapis.com/equinox-cels.com/Other/fma01_00.jpg'
+        ]
+
+
+    static FMA_CAPTIONS =
+        [
+            '',
+            '',
+            '',
+            ''
+        ]
+
+    static OTHER_FILENAMES =
+        [
+            'https://storage.googleapis.com/equinox-cels.com/Other/poopycat.jpg',
+            'https://storage.googleapis.com/equinox-cels.com/Other/poopycat_sketch.jpg',
+            'https://storage.googleapis.com/equinox-cels.com/Other/KLK_ep10_front.jpg',
+            'https://storage.googleapis.com/equinox-cels.com/Other/KLK_ep10_back.jpg',
+            'https://storage.googleapis.com/equinox-cels.com/Other/Lassie_01.png',
+            'https://storage.googleapis.com/equinox-cels.com/Other/Courage_storyboard_70.png',
+            'https://storage.googleapis.com/equinox-cels.com/Other/Courage_storyboard_87.png'
+        ]
+
+    static OTHER_CAPTIONS =
+        [
+            '',
+            '',
+            '',
+            '',
+            '',
+            '',
+            '',
+        ]
 }

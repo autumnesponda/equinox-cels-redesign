@@ -34,5 +34,4 @@ export class JojosGalleryComponent implements OnInit {
     // close lightbox programmatically
     this._lightbox.close();
   }
-
 }
