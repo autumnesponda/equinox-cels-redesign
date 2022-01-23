@@ -16,7 +16,7 @@
     <div class="row row-cols-1 row-cols-md-3 g-4">
         <div *ngFor="let image of albums; let i=index">
             <div class="col h-100">
-                <img class="w-100 h-100" style="object-fit: cover;" [src]="image.src" (click)="open(i)" />
+                <img class="w-100 h-100" style="object-fit: cover; cursor: pointer;" [src]="image.src" (click)="open(i)" />
             </div>
         </div>
     </div>

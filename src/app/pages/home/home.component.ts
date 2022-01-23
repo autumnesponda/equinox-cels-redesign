@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {Constants} from "../../shared/constants";
+import { Constants } from "../../shared/constants";
 
 @Component({
   selector: 'app-home',
@@ -8,11 +8,11 @@ import {Constants} from "../../shared/constants";
 export class HomeComponent implements OnInit {
   images = [
     {path: Constants.MediaUrlPrefix + "Eva/EOE_00_16.jpeg"},
+    {path: 'https://storage.googleapis.com/equinox-cels.com/jojo/cellthumbnail.jpg'},
     {path: Constants.MediaUrlPrefix + "Eva/NGE_EPISODE13_FULL.png"},
     {path: Constants.MediaUrlPrefix + "Eva/EOE_03_combined.jpg"},
-    {path: Constants.MediaUrlPrefix + "Eva/NGE_misato_raw_00.jpg"},
+    {path: 'https://storage.googleapis.com/equinox-cels.com/Other/RMS-099%20Rick%20Dias.jpg'},
     {path: Constants.MediaUrlPrefix + "Eva/EOE_02_A10.jpeg"},
-    {path: Constants.MediaUrlPrefix + "Eva/NGE_misato_raw_01.jpg"},
   ]
   constructor() { }
 
