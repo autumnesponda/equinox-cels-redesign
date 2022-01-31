@@ -1,0 +1,17 @@
+<div class="modal-header">
+  <button
+          type="button"
+          class="btn-close"
+          aria-label="Close"
+          (click)="modalRef.close()"
+  ></button>
+</div>
+<div class="modal-body">
+  <mdb-carousel [controls]="true" [animation]="'fade'" [indicators]="true" [dark]="true" [interval]="0">
+    <ng-container *ngFor="let imageUrl of imageUrls.slice(1)">
+      <mdb-carousel-item>
+        <img [src]="'https://storage.googleapis.com/equinox-cels.com/Eva/' + imageUrl" class="d-block w-100"/>
+      </mdb-carousel-item>
+    </ng-container>
+  </mdb-carousel>
+</div>

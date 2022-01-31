@@ -50,7 +50,7 @@ export abstract class Constants {
     static JOJO_CAPTIONS =
         [
             'The full four-layer key pan cel (A1/B1/C6/D2)',
-            'The original layout for the entire pan shot. The note on top reads "3D shading to go with 94(C)" the next shot in the sequence',
+            'The original layout for the entire pan shot. The note on top reads "3D shading to go with 94(C)" - the next shot in the sequence',
             'Final douga for cel B-1 of the pan cel',
             'Correction genga signed by award-winning animator Hiroyuki Kitakubo who was a chief director for this series. The note reads: "☆Animation Director~ Please fix the tear in the clothes here so it doesn\'t touch the red line because it interferes with the hat in cel D."',
             'The original B-1 douga referenced in the previous image. Note how much longer the tear in the clothing is compared to the final cel.',
