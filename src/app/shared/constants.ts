@@ -79,7 +79,7 @@ export abstract class Constants {
         [
             '',
             '',
-            '',
+            'Devil Gundam from G Gundam Ep. 49 "God Gundam\'s Great Triumph: A Hopeful Future; Ready, Go!"',
             '',
             ''
         ]
