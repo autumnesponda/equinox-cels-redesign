@@ -26,6 +26,8 @@ export abstract class Constants {
 
     static JOJO_FILENAMES =
         [
+            'https://storage.googleapis.com/equinox-cels.com/jojo/jojo02.jpg',
+
             'https://storage.googleapis.com/equinox-cels.com/jojo/fullcel.jpeg',
             'https://storage.googleapis.com/equinox-cels.com/jojo/layout01.jpeg',
             'https://storage.googleapis.com/equinox-cels.com/jojo/dougaB0.jpeg',
@@ -49,7 +51,8 @@ export abstract class Constants {
 
     static JOJO_CAPTIONS =
         [
-            'The full four-layer key pan cel (A1/B1/C6/D2)',
+            'A10 cel of Silver Chariot from the first episode of the original 1993 six-episode OVA series (8th overall), entitled: "Iggy the Fool and N\'Doul the GEB (Pt. I)"',
+            'The full four-layer key pan cel (A1/B1/C6/D2). These are from the second episode of the original 1993 six-episode OVA series (9th overall), entitled: "Iggy the Fool and N\'Dool the GEB (Pt. II)."',
             'The original layout for the entire pan shot. The note on top reads "3D shading to go with 94(C)" - the next shot in the sequence',
             'Final douga for cel B-1 of the pan cel',
             'Correction genga signed by award-winning animator Hiroyuki Kitakubo who was a chief director for this series. The note reads: "☆Animation Director~ Please fix the tear in the clothes here so it doesn\'t touch the red line because it interferes with the hat in cel D."',
