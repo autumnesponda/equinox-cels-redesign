@@ -15,11 +15,24 @@ export class GhostStoriesGalleryComponent implements OnInit {
     _lightboxConfig.showImageNumberLabel = true;
 
     for (let i = 0; i < Constants.GHOSTSTORIES_FILENAMES.length; i++) {
-      let album = {
-        src: Constants.GHOSTSTORIES_FILENAMES[i],
-        caption: Constants.GHOSTSTORIES_CAPTIONS[i]
-      };
-      this.albums.push(album);
+      let filename = Constants.GHOSTSTORIES_FILENAMES[i];
+      let image;
+      if (filename.indexOf('|') != -1) {
+        let filenames = filename.split('|');
+        image = {
+          src: filenames[0],
+          caption: Constants.GHOSTSTORIES_CAPTIONS[i],
+          overlay: filenames[1]
+        };
+
+      } else {
+        image = {
+          src: Constants.GHOSTSTORIES_FILENAMES[i],
+          caption: Constants.GHOSTSTORIES_CAPTIONS[i],
+          overlay: null
+        };
+      }
+      this.albums.push(image);
     }
   }
 

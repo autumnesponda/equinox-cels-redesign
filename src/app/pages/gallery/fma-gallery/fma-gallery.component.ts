@@ -15,11 +15,24 @@ export class FmaGalleryComponent implements OnInit {
     _lightboxConfig.showImageNumberLabel = true;
 
     for (let i = 0; i < Constants.FMA_FILENAMES.length; i++) {
-      let album = {
-        src: Constants.FMA_FILENAMES[i],
-        caption: Constants.FMA_CAPTIONS[i]
-      };
-      this.albums.push(album);
+      let filename = Constants.FMA_FILENAMES[i];
+      let image;
+      if (filename.indexOf('|') != -1) {
+        let filenames = filename.split('|');
+        image = {
+          src: filenames[0],
+          caption: Constants.FMA_CAPTIONS[i],
+          overlay: filenames[1]
+        };
+
+      } else {
+        image = {
+          src: Constants.FMA_FILENAMES[i],
+          caption: Constants.FMA_CAPTIONS[i],
+          overlay: null
+        };
+      }
+      this.albums.push(image);
     }
   }
 

@@ -15,11 +15,24 @@ export class GundamGalleryComponent implements OnInit {
     _lightboxConfig.showImageNumberLabel = true;
 
     for (let i = 0; i < Constants.GUNDAM_FILENAMES.length; i++) {
-      let album = {
-        src: Constants.GUNDAM_FILENAMES[i],
-        caption: Constants.GUNDAM_CAPTIONS[i]
-      };
-      this.albums.push(album);
+      let filename = Constants.GUNDAM_FILENAMES[i];
+      let image;
+      if (filename.indexOf('|') != -1) {
+        let filenames = filename.split('|');
+        image = {
+          src: filenames[0],
+          caption: Constants.GUNDAM_CAPTIONS[i],
+          overlay: filenames[1]
+        };
+
+      } else {
+        image = {
+          src: Constants.GUNDAM_FILENAMES[i],
+          caption: Constants.GUNDAM_CAPTIONS[i],
+          overlay: null
+        };
+      }
+      this.albums.push(image);
     }
   }
 

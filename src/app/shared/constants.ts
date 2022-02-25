@@ -26,7 +26,7 @@ export abstract class Constants {
 
     static JOJO_FILENAMES =
         [
-            'https://storage.googleapis.com/equinox-cels.com/jojo/jojo02.jpg',
+            'https://storage.googleapis.com/equinox-cels.com/jojo/CHARIOTCEL00108066.png|https://storage.googleapis.com/equinox-cels.com/jojo/CHARIOTMASTER00108150.png',
 
             'https://storage.googleapis.com/equinox-cels.com/jojo/fullcel.jpeg',
             'https://storage.googleapis.com/equinox-cels.com/jojo/layout01.jpeg',
@@ -73,7 +73,7 @@ export abstract class Constants {
         [
             'https://storage.googleapis.com/equinox-cels.com/Other/newCenturyGundamX_%20A21E.png',
             'https://storage.googleapis.com/equinox-cels.com/Other/newCenturyGundamX_%20A21E_douga.png',
-            'https://storage.googleapis.com/equinox-cels.com/Other/g-gundam-3.jpg',
+            'https://storage.googleapis.com/equinox-cels.com/Other/ggundamcel.png|https://storage.googleapis.com/equinox-cels.com/Other/ggundammaster.png',
             'https://storage.googleapis.com/equinox-cels.com/Other/mobile_suit_victory_gundam_01.png',
             'https://storage.googleapis.com/equinox-cels.com/Other/RMS-099%20Rick%20Dias.jpg'
         ]
@@ -91,18 +91,18 @@ export abstract class Constants {
         [
             'https://storage.googleapis.com/equinox-cels.com/Other/GHOST_STORIES_01_00.png',
             'https://storage.googleapis.com/equinox-cels.com/Other/GHOST_STORIES_01_01.png',
-            'https://storage.googleapis.com/equinox-cels.com/Other/GHOST_STORIES_S23_00.jpeg',
-            'https://storage.googleapis.com/equinox-cels.com/Other/GHOST_STORIES_S23_01.jpeg',
-            'https://storage.googleapis.com/equinox-cels.com/Other/GHOST_STORIES_S23_02.jpeg'
+            'https://storage.googleapis.com/equinox-cels.com/Other/ghost_stories_00.jpg|https://storage.googleapis.com/equinox-cels.com/Other/ghost_stories_00_master.png',
+            'https://storage.googleapis.com/equinox-cels.com/Other/ghost_stories_02.jpg|https://storage.googleapis.com/equinox-cels.com/Other/ghost_stories_02_master.png',
+            'https://storage.googleapis.com/equinox-cels.com/Other/ghost%20stories%2003.jpg'
         ]
 
     static GHOSTSTORIES_CAPTIONS =
         [
             '',
             '',
-            '',
-            '',
-            ''
+            'A-1 Douga From Episode 09: "Shirotabi: The Corpse That Wanders the Night." Note the lack of backpack and different shape of the face compared to the final frame from the TV show',
+            'Correction genga for the previous douga; adding in the backpack, updating the ponytail, changing the eyelashes, and refining the face shape',
+            'Douga for the sweat drop, marking its starting and final locations'
         ]
 
     static FMA_FILENAMES =
@@ -110,12 +110,14 @@ export abstract class Constants {
             'https://storage.googleapis.com/equinox-cels.com/Other/fma00_00.jpg',
             'https://storage.googleapis.com/equinox-cels.com/Other/fma00_01.jpg',
             'https://storage.googleapis.com/equinox-cels.com/Other/fma00_02.jpg',
-            'https://storage.googleapis.com/equinox-cels.com/Other/fma01_00.jpg'
+            'https://storage.googleapis.com/equinox-cels.com/Other/fma01_00.jpg',
+            'https://storage.googleapis.com/equinox-cels.com/Other/fma_douga_animated_00.gif'
         ]
 
 
     static FMA_CAPTIONS =
         [
+            '',
             '',
             '',
             '',
