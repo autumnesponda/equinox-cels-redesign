@@ -23,4 +23,26 @@ body
     transition: all ease .5s
 
   img:hover
-    opacity: .25
+    opacity: .35
+
+.overlay-parent
+  position: relative
+  display: inline-block
+
+  .overlay
+    display: inline
+    opacity: 0
+    position: absolute
+    top: 0
+    left: 0
+    z-index: 99
+    -webkit-transition: all ease .5s
+    -moz-transition: all ease .5s
+    -o-transition: all ease .5s
+    -ms-transition: all ease .5s
+    transition: all ease .5s
+
+.overlay-parent:hover
+  cursor: pointer
+  .overlay
+    opacity: 65%

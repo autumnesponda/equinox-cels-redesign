@@ -51,7 +51,7 @@ export abstract class Constants {
 
     static JOJO_CAPTIONS =
         [
-            'A10 cel of Silver Chariot from the first episode of the original 1993 six-episode OVA series (8th overall), entitled: "Iggy the Fool and N\'Doul the GEB (Pt. I)"',
+            'A-10 cel of Silver Chariot from the first episode of the original 1993 six-episode OVA series (8th overall), entitled: "Iggy the Fool and N\'Doul the GEB (Pt. I)"',
             'The full four-layer key pan cel (A1/B1/C6/D2). These are from the second episode of the original 1993 six-episode OVA series (9th overall), entitled: "Iggy the Fool and N\'Dool the GEB (Pt. II)."',
             'The original layout for the entire pan shot. The note on top reads "3D shading to go with 94(C)" - the next shot in the sequence',
             'Final douga for cel B-1 of the pan cel',
@@ -75,16 +75,24 @@ export abstract class Constants {
             'https://storage.googleapis.com/equinox-cels.com/Other/newCenturyGundamX_%20A21E_douga.png',
             'https://storage.googleapis.com/equinox-cels.com/Other/ggundamcel.png|https://storage.googleapis.com/equinox-cels.com/Other/ggundammaster.png',
             'https://storage.googleapis.com/equinox-cels.com/Other/mobile_suit_victory_gundam_01.png',
-            'https://storage.googleapis.com/equinox-cels.com/Other/RMS-099%20Rick%20Dias.jpg'
+            'https://storage.googleapis.com/equinox-cels.com/Other/RMS-099%20Rick%20Dias.jpg',
+            'https://storage.googleapis.com/equinox-cels.com/Other/gundam0001cel.jpg',
+            'https://storage.googleapis.com/equinox-cels.com/Other/gundam0001douga.jpg',
+            'https://storage.googleapis.com/equinox-cels.com/Other/gundam000cel.jpg',
+            'https://storage.googleapis.com/equinox-cels.com/Other/gundam000douga.jpg'
         ]
 
     static GUNDAM_CAPTIONS =
         [
-            '',
-            '',
-            'Devil Gundam from G Gundam Ep. 49 "God Gundam\'s Great Triumph: A Hopeful Future; Ready, Go!"',
-            '',
-            ''
+            'A-21 with color-copy background from After War Gundam X featuring the Air Master',
+            'Douga of the previous cel',
+            'B-19 of Devil Gundam from G Gundam Ep. 49 "God Gundam\'s Great Triumph: A Hopeful Future; Ready, Go!"',
+            'Cel A-22, cut 286 of LM111E03 Gunblaster from Victory Gundam Ep. 45 "Uso Dances with Dreams" ',
+            'Cel A-7 of Rick Dias from Zeta Gundam',
+            'Cel A-9, Cut 253 of RMS-019R Crouda Lancerow Custom from After War Gundam X',
+            'Douga of the previous cel',
+            'Cel A-4, Cut 96 of NRX-0013-CB Gundam Virsago Chest Break from After War Gundam X Ep. 36 "The Next War is the War We Wanted"',
+            'Douga of the previous cel'
         ]
 
     static GHOSTSTORIES_FILENAMES =
@@ -101,7 +109,7 @@ export abstract class Constants {
             '',
             '',
             'A-1 Douga From Episode 09: "Shirotabi: The Corpse That Wanders the Night." Note the lack of backpack and different shape of the face compared to the final frame from the TV show',
-            'Correction genga for the previous douga; adding in the backpack, updating the ponytail, changing the eyelashes, and refining the face shape',
+            'Correction sheet for the previous douga; adding in the backpack, updating the ponytail, changing the eyelashes, and refining the face shape',
             'Douga for the sweat drop, marking its starting and final locations'
         ]
 
@@ -128,7 +136,7 @@ export abstract class Constants {
         [
             'https://storage.googleapis.com/equinox-cels.com/Other/poopycat.jpg',
             'https://storage.googleapis.com/equinox-cels.com/Other/poopycat_sketch.jpg',
-            'https://storage.googleapis.com/equinox-cels.com/Other/KLK_ep10_front.jpg',
+            'https://storage.googleapis.com/equinox-cels.com/Other/KLK_ep10_front.jpg|https://storage.googleapis.com/equinox-cels.com/Other/KLK_ep10_master.png',
             'https://storage.googleapis.com/equinox-cels.com/Other/KLK_ep10_back.jpg',
             'https://storage.googleapis.com/equinox-cels.com/Other/Lassie_01.png',
             'https://storage.googleapis.com/equinox-cels.com/Other/Courage_storyboard_70.png',
@@ -139,8 +147,8 @@ export abstract class Constants {
         [
             '',
             '',
-            '',
-            '',
+            'A-1 Douga of Nonon Jakuzure from the final scene of Kill La Kill Ep. 10: "I Want to Know More about You"',
+            'The back of the previous douga laying out the different areas of shading',
             '',
             '',
             '',
