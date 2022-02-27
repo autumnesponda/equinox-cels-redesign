@@ -1,11 +1,12 @@
 <div class="card mx-5 mb-3">
     <div class="row g-0">
         <div class="col-lg-8">
-            <div *ngIf="overlayImageUrl; else elseBlock">
-                <div id="cssfade" [style]="'background-image: url(' + overlayImageUrl + ');'">
-                    <img class="top img-fluid" [src]="mainImageUrl" />
+            <ng-template [ngIf]="overlayImageUrl" [ngIfElse]="elseBlock">
+                <div class="w-100 h-100 overlay-parent">
+                    <img class="img-fluid"            [src]="mainImageUrl"/>
+                    <img class="img-fluid overlay"    [src]="overlayImageUrl"/>
                 </div>
-            </div>
+            </ng-template>
             <ng-template #elseBlock>
                 <img class="top img-fluid" [src]="mainImageUrl" />
             </ng-template>
