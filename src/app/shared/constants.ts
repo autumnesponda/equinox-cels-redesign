@@ -115,25 +115,30 @@ export abstract class Constants {
 
     static FMA_FILENAMES =
         [
+            'https://storage.googleapis.com/equinox-cels.com/Other/ed_fma.gif',
             'https://storage.googleapis.com/equinox-cels.com/Other/fma00_00.jpg',
             'https://storage.googleapis.com/equinox-cels.com/Other/fma00_01.jpg',
             'https://storage.googleapis.com/equinox-cels.com/Other/fma00_02.jpg',
             'https://storage.googleapis.com/equinox-cels.com/Other/fma01_00.jpg',
-            'https://storage.googleapis.com/equinox-cels.com/Other/fma_douga_animated_00.gif'
+            'https://storage.googleapis.com/equinox-cels.com/Other/fma_douga_animated_00.gif',
+            'https://storage.googleapis.com/equinox-cels.com/Other/dietlinde_douga.jpg|https://storage.googleapis.com/equinox-cels.com/Other/dietlinde_master.png'
         ]
 
 
     static FMA_CAPTIONS =
         [
+            'A set of douga featuring the Fullmetal Alchemist himself, Edward Elrich, from the first episode of the series, "Those Who Challenge the Sun"',
             '',
             '',
             '',
             '',
-            ''
+            'A set of douga featuring Rudolf Hess from "Fullmetal Alchemist the Movie: Conqueror of Shamballa"',
+            'A-1 douga featuring Dietlinde Eckhart from "Fullmetal Alchemist the Movie: Conqueror of Shamballa"'
         ]
 
     static OTHER_FILENAMES =
         [
+            'https://storage.googleapis.com/equinox-cels.com/Other/deidara_dougas.gif',
             'https://storage.googleapis.com/equinox-cels.com/Other/poopycat.jpg',
             'https://storage.googleapis.com/equinox-cels.com/Other/poopycat_sketch.jpg',
             'https://storage.googleapis.com/equinox-cels.com/Other/KLK_ep10_front.jpg|https://storage.googleapis.com/equinox-cels.com/Other/KLK_ep10_master.png',
@@ -145,12 +150,13 @@ export abstract class Constants {
 
     static OTHER_CAPTIONS =
         [
+            'A set of douga featuring Deidara from Naruto',
             '',
             '',
             'A-1 Douga of Nonon Jakuzure from the final scene of Kill La Kill Ep. 10: "I Want to Know More about You"',
             'The back of the previous douga laying out the different areas of shading',
             '',
-            '',
-            '',
+            'Storyboard from "The Fog of Courage", a 2013 7-minute CGI pilot for a possible revival of Courage the Cowardly Dog. Signed by John R. Dilworth, the director and executive producer of the original series as well as this pilot',
+            'Storyboard from "The Fog of Courage", a 2013 7-minute CGI pilot for a possible revival of Courage the Cowardly Dog. Signed by John R. Dilworth, the director and executive producer of the original series as well as this pilot',
         ]
 }

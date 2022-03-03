@@ -6,6 +6,7 @@ import { MdbDropdownModule } from "mdb-angular-ui-kit/dropdown";
 import { MdbModalModule } from "mdb-angular-ui-kit/modal";
 import { MdbRippleModule } from "mdb-angular-ui-kit/ripple";
 import { IvyCarouselModule } from "angular-responsive-carousel";
+import { LazyLoadImageModule } from "ng-lazyload-image";
 import { LightboxModule } from "ngx-lightbox";
 
 import { AppRoutingModule } from './app-routing.module';
@@ -52,6 +53,7 @@ import { EvaBasicCardComponent } from './shared/components/eva-basic-card/eva-ba
     MdbModalModule,
     MdbRippleModule,
     IvyCarouselModule,
+    LazyLoadImageModule,
     LightboxModule
   ],
   providers: [],

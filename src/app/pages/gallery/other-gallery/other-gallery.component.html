@@ -19,12 +19,12 @@
             <div class="col h-100">
                 <ng-template [ngIf]="image.overlay" [ngIfElse]="elseBlock">
                     <div class="w-100 h-100 overlay-parent" (click)="open(i)">
-                        <img class="w-100 h-100"            [src]="image.src"/>
-                        <img class="w-100 h-100 overlay"    [src]="image.overlay"/>
+                        <img class="w-100 h-100"            [lazyLoad]="image.src"/>
+                        <img class="w-100 h-100 overlay"    [lazyLoad]="image.overlay"/>
                     </div>
                 </ng-template>
                 <ng-template #elseBlock>
-                    <img class="w-100 h-100" style="object-fit: cover; cursor: pointer;" [src]="image.src" (click)="open(i)"/>
+                    <img class="w-100 h-100" style="object-fit: cover; cursor: pointer;" [lazyLoad]="image.src" (click)="open(i)"/>
                 </ng-template>
             </div>
         </div>
