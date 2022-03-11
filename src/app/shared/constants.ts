@@ -97,31 +97,31 @@ export abstract class Constants {
 
     static GHOSTSTORIES_FILENAMES =
         [
-            'https://storage.googleapis.com/equinox-cels.com/Other/GHOST_STORIES_01_00.png',
-            'https://storage.googleapis.com/equinox-cels.com/Other/GHOST_STORIES_01_01.png',
             'https://storage.googleapis.com/equinox-cels.com/Other/ghost_stories_00.jpg|https://storage.googleapis.com/equinox-cels.com/Other/ghost_stories_00_master.png',
             'https://storage.googleapis.com/equinox-cels.com/Other/ghost_stories_02.jpg|https://storage.googleapis.com/equinox-cels.com/Other/ghost_stories_02_master.png',
-            'https://storage.googleapis.com/equinox-cels.com/Other/ghost%20stories%2003.jpg'
+            'https://storage.googleapis.com/equinox-cels.com/Other/ghost%20stories%2003.jpg',
+            'https://storage.googleapis.com/equinox-cels.com/Other/GHOST_STORIES_01_00.png',
+            'https://storage.googleapis.com/equinox-cels.com/Other/GHOST_STORIES_01_01.png'
         ]
 
     static GHOSTSTORIES_CAPTIONS =
         [
-            '',
-            '',
             'A-1 Douga From Episode 09: "Shirotabi: The Corpse That Wanders the Night." Note the lack of backpack and different shape of the face compared to the final frame from the TV show',
             'Correction sheet for the previous douga; adding in the backpack, updating the ponytail, changing the eyelashes, and refining the face shape',
-            'Douga for the sweat drop, marking its starting and final locations'
+            'Douga for the sweat drop, marking its starting and final locations',
+            '',
+            ''
         ]
 
     static FMA_FILENAMES =
         [
             'https://storage.googleapis.com/equinox-cels.com/Other/ed_fma.gif',
-            'https://storage.googleapis.com/equinox-cels.com/Other/fma00_00.jpg',
             'https://storage.googleapis.com/equinox-cels.com/Other/fma00_01.jpg',
+            'https://storage.googleapis.com/equinox-cels.com/Other/fma00_00.jpg',
             'https://storage.googleapis.com/equinox-cels.com/Other/fma00_02.jpg',
+            'https://storage.googleapis.com/equinox-cels.com/Other/dietlinde_douga.jpg|https://storage.googleapis.com/equinox-cels.com/Other/dietlinde_master.png',
             'https://storage.googleapis.com/equinox-cels.com/Other/fma01_00.jpg',
-            'https://storage.googleapis.com/equinox-cels.com/Other/fma_douga_animated_00.gif',
-            'https://storage.googleapis.com/equinox-cels.com/Other/dietlinde_douga.jpg|https://storage.googleapis.com/equinox-cels.com/Other/dietlinde_master.png'
+            'https://storage.googleapis.com/equinox-cels.com/Other/fma_douga_animated_00.gif'
         ]
 
 
@@ -131,9 +131,9 @@ export abstract class Constants {
             '',
             '',
             '',
+            'A-1 douga featuring Dietlinde Eckhart from "Fullmetal Alchemist the Movie: Conqueror of Shamballa"',
             '',
-            'A set of douga featuring Rudolf Hess from "Fullmetal Alchemist the Movie: Conqueror of Shamballa"',
-            'A-1 douga featuring Dietlinde Eckhart from "Fullmetal Alchemist the Movie: Conqueror of Shamballa"'
+            'A set of douga featuring Rudolf Hess from "Fullmetal Alchemist the Movie: Conqueror of Shamballa"'
         ]
 
     static OTHER_FILENAMES =
