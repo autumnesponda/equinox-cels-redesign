@@ -59,6 +59,22 @@
             "
 ></app-eva-video-card>
 
+<app-eva-video-card
+        [fileUrls]="fileUrls[6]"
+        title="End of Evangelion"
+        subtitle='"エヴァシリーズ活動再開！"'
+        cut="Unknown Cut"
+        celInfo="Cels A7 & B14"
+        body=
+            "
+                <i>&quot;The Eva series has reactivated!&quot;</i><br>
+                Unit-02 has run out of power and gone silent. The battle appears to be over until the Mass Production
+                Evangelions, though mangled by Asuka's attacks, all come back to life. Seen here are the second and third
+                Mass Production Evas sprouting their wings to move in for their final attack.<br>
+                <small>These cels are on sheets that are 27 inches long!</small>
+            "
+></app-eva-video-card>
+
 <app-eva-basic-card
         mainImageUrl = "https://storage.googleapis.com/equinox-cels.com/Eva/ASUKAouchCEL.png"
         overlayImageUrl = "https://storage.googleapis.com/equinox-cels.com/Eva/asukaOUCHmaster.png"
@@ -69,9 +85,41 @@
         body=
             "
                 <i>&quot;I'll kill you...&quot;</i><br>
-                The automated Evangelions, though mangled by Asuka's attacks, all come back to life.
-                Like a volt of vultures, they descend upon the lifeless Unit-02, tearing it apart and exposing its innards.
-                While the Mass Production Evangelions fly away, a wounded Asuka (seen here) coaxes Unit-02 into reactivating in berserk mode.
+                Like a volt of vultures, the Mass Production Evangelions descend upon the lifeless Unit-02, tearing it apart and exposing its innards.
+                While the Mass Production Evangelions fly away, a wounded Asuka (seen here) coaxes Unit-02 into reactivating in berserk mode for an attempt at one last attack.<br>
+            "
+></app-eva-basic-card>
+
+
+<app-eva-basic-card
+        mainImageUrl = "https://storage.googleapis.com/equinox-cels.com/Eva/wakeupshinjocel.jpg"
+        overlayImageUrl = "https://storage.googleapis.com/equinox-cels.com/Eva/wakeupshinjomaster.jpg"
+        title = "Evangelion: Death(true)<sup>2</sup>"
+        subtitle = 'Another unfamiliar ceiling...'
+        cut = 'Unknown Cut'
+        celInfo = 'Cel A-5'
+        body=
+            "
+                The Fifth Angel Ramiel attacks Tokyo-3. Shinji is launched in Unit-01, but the Angel sensed the Eva and
+                shot it before the removal of the restraints.
+                Unit-01 is recovered and Shinji is rescued and hospitalized.
+                In a cut unique to the <i>Death(true)<sup>2</sup></i> clip show, Shinji wakes up to Rei explaining the
+                details of Operation Yashima to defeat Ramiel
+            "
+></app-eva-basic-card>
+
+<app-eva-basic-card
+        mainImageUrl = "https://storage.googleapis.com/equinox-cels.com/Eva/byereicel.jpg"
+        overlayImageUrl = "https://storage.googleapis.com/equinox-cels.com/Eva/byereimaster.jpg"
+        title = "Neon Genesis Evangelion"
+        subtitle = "Ep. 1: &quot;Angel Attack&quot;"
+        cut = 'Cut 269'
+        celInfo = 'Cel A-6'
+        body=
+            "
+                After Shinji refuses to pilot Eva Unit-01, the heavily injured Rei Ayanami is rolled out on a stretcher to pilot instead.
+                As she struggles to sit up, the Third Angel Sachiel reaches the city's edge and blasts a hole in the Geofront.
+                The blast waves echo all the way to the cages, and as seen here, knock Rei out of her stretcher.
             "
 ></app-eva-basic-card>
 
@@ -108,7 +156,7 @@
 <div class="card mx-5 mb-3">
     <div class="row g-0">
         <div class="col-lg-8">
-            <img class="img-fluid" [src]="'https://storage.googleapis.com/equinox-cels.com/Eva/' + this.fileUrls[this.fileUrls.length - 1][0]" />
+            <img class="img-fluid" [src]="'https://storage.googleapis.com/equinox-cels.com/Eva/' + this.fileUrls[5][0]" />
         </div>
         <div class="col-lg-4 text-center d-flex">
             <div class="card-body d-flex justify-content-between" style="flex-direction: column">

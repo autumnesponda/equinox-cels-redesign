@@ -20,7 +20,10 @@ export abstract class Constants {
                 'eoe_heliman_w_cels.mp4', 'EOE_03_combined.jpg', 'EOE_03_C17.jpg', 'EOE_03_D6.jpg'
             ],
             [
-                'NGE_misato_raw_00.jpg', 'NGE_misato_raw_01.jpg', 'NGE_misato_raw_02.jpg', 'NGE_misato_raw_03.jpg', 'NGE_misato_raw_04.jpg', 'NGE_misato_raw_05.jpg'
+                'wowmisto.jpg', 'NGE_misato_raw_00.jpg', 'NGE_misato_raw_01.jpg', 'NGE_misato_raw_02.jpg', 'NGE_misato_raw_03.jpg', 'NGE_misato_raw_04.jpg', 'NGE_misato_raw_05.jpg'
+            ],
+            [
+                'smallerflappybirds.mp4', 'EPSON017.jpg', 'EPSON015.jpg'
             ]
         ];
 
@@ -120,6 +123,7 @@ export abstract class Constants {
             'https://storage.googleapis.com/equinox-cels.com/Other/fma00_00.jpg',
             'https://storage.googleapis.com/equinox-cels.com/Other/fma00_02.jpg',
             'https://storage.googleapis.com/equinox-cels.com/Other/dietlinde_douga.jpg|https://storage.googleapis.com/equinox-cels.com/Other/dietlinde_master.png',
+            'https://storage.googleapis.com/equinox-cels.com/Other/EPSON010.jpg',
             'https://storage.googleapis.com/equinox-cels.com/Other/fma01_00.jpg',
             'https://storage.googleapis.com/equinox-cels.com/Other/fma_douga_animated_00.gif'
         ]
@@ -132,6 +136,7 @@ export abstract class Constants {
             '',
             '',
             'A-1 douga featuring Dietlinde Eckhart from "Fullmetal Alchemist the Movie: Conqueror of Shamballa"',
+            'Correction genga from "Fullmetal Alchemist the Movie: Conqueror of Shamballa"',
             '',
             'A set of douga featuring Rudolf Hess from "Fullmetal Alchemist the Movie: Conqueror of Shamballa"'
         ]

@@ -18,7 +18,7 @@ export class EvaGalleryComponent implements OnInit {
   openDougaModal() {
     this.modalService.open(EvaModalGalleryComponent, {
       modalClass: 'modal-lg',
-      data: { imageUrls: this.fileUrls[this.fileUrls.length - 1] }
+      data: { imageUrls: this.fileUrls[5] }
     });
   }
 }
