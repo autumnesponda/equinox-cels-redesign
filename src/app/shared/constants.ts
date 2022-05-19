@@ -143,24 +143,26 @@ export abstract class Constants {
 
     static OTHER_FILENAMES =
         [
-            'https://storage.googleapis.com/equinox-cels.com/Other/deidara_dougas.gif',
+            'https://storage.googleapis.com/equinox-cels.com/Other/pompoko.png',
             'https://storage.googleapis.com/equinox-cels.com/Other/poopycat.jpg',
-            'https://storage.googleapis.com/equinox-cels.com/Other/poopycat_sketch.jpg',
-            'https://storage.googleapis.com/equinox-cels.com/Other/KLK_ep10_front.jpg|https://storage.googleapis.com/equinox-cels.com/Other/KLK_ep10_master.png',
-            'https://storage.googleapis.com/equinox-cels.com/Other/KLK_ep10_back.jpg',
             'https://storage.googleapis.com/equinox-cels.com/Other/Lassie_01.png',
+            'https://storage.googleapis.com/equinox-cels.com/Other/nardo02.png',
+            'https://storage.googleapis.com/equinox-cels.com/Other/nardo01.png',
+            'https://storage.googleapis.com/equinox-cels.com/Other/nardo00.png',
+            'https://storage.googleapis.com/equinox-cels.com/Other/KLK_ep10_front.jpg|https://storage.googleapis.com/equinox-cels.com/Other/KLK_ep10_master.png',
             'https://storage.googleapis.com/equinox-cels.com/Other/Courage_storyboard_70.png',
             'https://storage.googleapis.com/equinox-cels.com/Other/Courage_storyboard_87.png'
         ]
 
     static OTHER_CAPTIONS =
         [
-            'A set of douga featuring Deidara from Naruto',
+            'Cels from the 1994 Studio Ghibli film Pom Poko. A-14,B-18,C-16, and D-11.',
+            '',
+            '',
+            '',
             '',
             '',
             'A-1 Douga of Nonon Jakuzure from the final scene of Kill La Kill Ep. 10: "I Want to Know More about You"',
-            'The back of the previous douga laying out the different areas of shading',
-            '',
             'Storyboard from "The Fog of Courage", a 2013 7-minute CGI pilot for a possible revival of Courage the Cowardly Dog. Signed by John R. Dilworth, the director and executive producer of the original series as well as this pilot',
             'Storyboard from "The Fog of Courage", a 2013 7-minute CGI pilot for a possible revival of Courage the Cowardly Dog. Signed by John R. Dilworth, the director and executive producer of the original series as well as this pilot',
         ]
